@@ -232,7 +232,31 @@
         padding: 50px 5%;
       }
     }
-  </style>
+ @media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    padding: 12px 10px;
+    gap: 8px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  nav a {
+    margin: 0 5px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+} </style>
 </head>
 
 <body>
